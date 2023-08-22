@@ -15,6 +15,7 @@
 #' @export
 #'
 #' @examples
+#' require(knitr)
 #' # Define custom RTL hooks
 #' rtl_hooks <- hooks_rtl()
 #'
@@ -23,6 +24,9 @@
 #'
 #' # After setting the hooks, knit your document as usual to produce RTL formatting.
 #'
+#'
+#' (f <- system.file("examples", "example.rnw", package = "RTLknitr"))
+#' knit2pdf(f)
 #' @seealso Use \code{\link{markdown_rtl}} to enable RTL formatting for Markdown documents.
 #'
 #' @import knitr
