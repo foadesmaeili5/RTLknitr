@@ -1,0 +1,68 @@
+\documentclass[12pt,usenames,dvipsnames]{report}
+\usepackage[left = 1cm,right = 1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+\usepackage{xepersian}
+\settextfont{Arial}
+
+\definecolor{warningcolor}{rgb}{1, 0, 0}
+
+\begin{document}
+
+<<include = FALSE>>=
+library(knitr)
+library(persianKnitrSweave)
+# rtl_listing()
+# hooks_rtl()
+knitr::knit_hooks$set(hooks_rtl())
+# hooks_foad() # which use the Foadst latex package
+
+@
+
+<<>>=
+aggregate(Sepal.Length~Species,data = iris,FUN = mean)
+@
+
+
+در این مطلب جملات ویژه انگیزشی برای موفقیت درسی و متن های مثبت انرژی دهنده خاص برای مطالعه کردن و درس خواندن را برای شما عزیزان دانش آموز و دانشجویان گرامی آماده کرده ایم و امیدواریم این مطلب مورد توجه شما قرار بگیرد.
+
+<<>>=
+head(iris)
+@
+
+<<>>=
+summary(iris)
+@
+
+\begin{equation}
+	A = \begin{bmatrix}
+			cos \theta &  sin \theta \\
+			-sin \theta & cos \theta
+		\end{bmatrix}, |A| = 1, A^TA = AA^T = I_2
+\end{equation}
+
+
+\begin{equation*}
+ cA \left(\begin{bmatrix*}
+x_1 \\
+y_1
+\end{bmatrix*}-b\right) = \begin{bmatrix}
+-\frac{1}{2}\\
+0
+\end{bmatrix},
+\end{equation*}
+
+و این نیز بخشی از برنامه نویسی پایتون در این محیط است.
+
+<<engine='python',comment=">>>">>=
+import pandas as pd
+from sklearn.datasets import load_iris
+iris = load_iris()
+df = pd.DataFrame(iris.data,columns = iris.feature_names)
+df
+@
+
+\end{document}

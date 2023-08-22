@@ -1,0 +1,31 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Foadst}{}
+\RequirePackage{color} 
+\RequirePackage{xcolor}
+\RequirePackage{listings,fancyvrb,relsize}
+
+\lstdefinestyle{Rstyle}{fancyvrb=false,escapechar=`,language=R,%
+                        %basicstyle={\Rcolor\Sweavesize},% some want \ttfamily too
+		  basicstyle=\ttfamily,
+                        %backgroundcolor=\Rbackground,%
+                        showstringspaces=false,%
+                        keywordstyle=\Rcolor,%
+                        %commentstyle={\Rcommentcolor\ttfamily\itshape},%
+                        literate={<-}{{$\leftarrow$}}2{<<-}{{$\twoheadleftarrow$}}2{~}{{$\sim$}}1{<=}{{$\leq$}}2{>=}{{$\geq$}}2{^}{{$^{\scriptstyle\wedge}$}}1,%
+                        alsoother={$},%
+                        alsoletter={.<-},%
+                        otherkeywords={!,!=,~,$,*,\&,\%/\%,\%*\%,\%\%,<-,<<-,/},%
+                        escapeinside={(*}{*)}}%
+% Other options of interest:
+% frame=single,framerule=0.1pt,framesep=1pt,rulecolor=\color{blue},
+% numbers=left,numberstyle=\tiny,stepnumber=1,numbersep=7pt,
+% keywordstyle={\bf\Rcolor}
+
+\lstdefinestyle{Routstyle}{fancyvrb=false,literate={~}{{$\sim$}}1{R^2}{{$R^{2}$}}2{^}{{$^{\scriptstyle\wedge}$}}1{R-squared}{{$R^{2}$}}2,%
+ frame=single,framerule=0.2pt,framesep=1pt,basicstyle=\ttfamily}
+
+\newenvironment{Schunk}{\latin \n}{\persian \n}
+\lstnewenvironment{Sinput}{\lstset{style=Rstyle}}{}
+\lstnewenvironment{Scode}{\lstset{style=Rstyle}}{}
+\lstnewenvironment{Soutput}{\lstset{style=Routstyle}}{}
+

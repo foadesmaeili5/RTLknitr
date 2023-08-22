@@ -1,11 +1,22 @@
 Package: RTLknitr
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Right to Left Dynamic Documents Using knitr
+Version: 1.0.1
+Author: Authors@R: c(
+  person("Foad", "Esmaeili", email = "foadesmaeili5@gmail.com", role = c("aut","cre"), comment = c(ORCID = "0000-0002-9638-0807")),
+  )
+Maintainer: Foad Esmaeili <foadesmaeili5@gmail.com>
+Description: provide seamless support for right-to-left (RTL) languages, such as Persian and Arabic, in R Markdown documents and LaTeX output. It includes functions and hooks that enable easy integration of RTL language content, allowing users to create documents that adhere to RTL writing conventions.For in-depth insights into dynamic documents and the `knitr` package, consider referring to Xie, Y (2014) <ISBN: 978-1-482-20353-0>.
+License: GPL (>= 2)
+URL: https://github.com/FoadEsmaeili5/RTLknitr
 Encoding: UTF-8
-LazyData: true
+LazyData: false
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.1)
+Imports:
+  knitr,
+  magrittr,
+  gt
+Reference:
+ - Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.

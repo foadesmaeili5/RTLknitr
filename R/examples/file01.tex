@@ -1,0 +1,189 @@
+\documentclass[12pt,usenames,dvipsnames]{report}\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[left = 1cm,right = 1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+\usepackage{xepersian}
+\settextfont{Arial}
+
+\definecolor{warningcolor}{rgb}{1, 0, 0}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\latin 
+\begin{alltt}
+\hlkwd{aggregate}\hlstd{(Sepal.Length}\hlopt{~}\hlstd{Species,}\hlkwc{data} \hlstd{= iris,}\hlkwc{FUN} \hlstd{= mean)}
+\end{alltt}
+\persian 
+\latin 
+\begin{verbatim}
+##      Species Sepal.Length
+## 1     setosa        5.006
+## 2 versicolor        5.936
+## 3  virginica        6.588
+\end{verbatim}
+\persian 
+\end{kframe}
+\end{knitrout}
+
+
+در این مطلب جملات ویژه انگیزشی برای موفقیت درسی و متن های مثبت انرژی دهنده خاص برای مطالعه کردن و درس خواندن را برای شما عزیزان دانش آموز و دانشجویان گرامی آماده کرده ایم و امیدواریم این مطلب مورد توجه شما قرار بگیرد.
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\latin 
+\begin{alltt}
+\hlkwd{head}\hlstd{(iris)}
+\end{alltt}
+\persian 
+\latin 
+\begin{verbatim}
+##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+## 1          5.1         3.5          1.4         0.2  setosa
+## 2          4.9         3.0          1.4         0.2  setosa
+## 3          4.7         3.2          1.3         0.2  setosa
+## 4          4.6         3.1          1.5         0.2  setosa
+## 5          5.0         3.6          1.4         0.2  setosa
+## 6          5.4         3.9          1.7         0.4  setosa
+\end{verbatim}
+\persian 
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\latin 
+\begin{alltt}
+\hlkwd{summary}\hlstd{(iris)}
+\end{alltt}
+\persian 
+\latin 
+\begin{verbatim}
+##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+##        Species  
+##  setosa    :50  
+##  versicolor:50  
+##  virginica :50  
+##                 
+##                 
+## 
+\end{verbatim}
+\persian 
+\end{kframe}
+\end{knitrout}
+
+\begin{equation}
+	A = \begin{bmatrix}
+			cos \theta &  sin \theta \\
+			-sin \theta & cos \theta
+		\end{bmatrix}, |A| = 1, A^TA = AA^T = I_2
+\end{equation}
+
+
+\begin{equation*}
+ cA \left(\begin{bmatrix*}
+x_1 \\
+y_1
+\end{bmatrix*}-b\right) = \begin{bmatrix}
+-\frac{1}{2}\\
+0
+\end{bmatrix},
+\end{equation*}
+
+و این نیز بخشی از برنامه نویسی پایتون در این محیط است.
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\latin 
+\begin{alltt}
+import pandas as pd
+from sklearn.datasets import load_iris
+iris = load_iris()
+df = pd.DataFrame(iris.data,columns = iris.feature_names)
+df
+\end{alltt}
+\persian 
+\latin 
+\begin{verbatim}
+>>>      sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+>>> 0                  5.1               3.5                1.4               0.2
+>>> 1                  4.9               3.0                1.4               0.2
+>>> 2                  4.7               3.2                1.3               0.2
+>>> 3                  4.6               3.1                1.5               0.2
+>>> 4                  5.0               3.6                1.4               0.2
+>>> ..                 ...               ...                ...               ...
+>>> 145                6.7               3.0                5.2               2.3
+>>> 146                6.3               2.5                5.0               1.9
+>>> 147                6.5               3.0                5.2               2.0
+>>> 148                6.2               3.4                5.4               2.3
+>>> 149                5.9               3.0                5.1               1.8
+>>> 
+>>> [150 rows x 4 columns]
+\end{verbatim}
+\persian 
+\end{kframe}
+\end{knitrout}
+
+\end{document}
