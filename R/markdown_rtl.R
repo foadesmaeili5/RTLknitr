@@ -27,6 +27,8 @@
 #' @seealso Use \code{\link{hooks_rtl}} for handling RTL formatting within code chunks.
 #'
 #' @import knitr bookdown
+#' @references
+#'  Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.
 markdown_rtl <- function(...) {
   .o_o <- knit_hooks$get("output")
   .o_s <- knit_hooks$get("source")
