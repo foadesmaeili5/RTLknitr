@@ -27,7 +27,8 @@
 #'
 #' @import knitr
 #' @importFrom magrittr %>%
-#'
+#' @references
+#'  Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.
 #'
 hooks_rtl <- function(fontcolor = "black", backcolor = "gray") {
   output_old <- knitr::knit_hooks$get("output")
