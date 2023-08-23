@@ -31,6 +31,9 @@ knitr::knit(f)
 # The output and messages will be formatted for RTL languages.
 
 }
+\references{
+Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.
+}
 \seealso{
 Use \code{\link{hooks_rtl}} for handling RTL formatting within code chunks.
 }

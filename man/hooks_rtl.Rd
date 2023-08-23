@@ -31,6 +31,9 @@ knitr::knit_hooks$set(rtl_hooks)
 # After setting the hooks, knit your document as usual to produce RTL formatting.
 
 }
+\references{
+Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.
+}
 \seealso{
 Use \code{\link{markdown_rtl}} to enable RTL formatting for Markdown documents.
 }
