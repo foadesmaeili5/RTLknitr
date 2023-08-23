@@ -25,7 +25,6 @@ install.packages('ImpShrinkage', dependencies = TRUE)
 You can install the *development* version from
 Github
 
-s
 # install.packages("remotes")
 remotes::install_github("FoadEsmaeili5/RTLknitr")
 
