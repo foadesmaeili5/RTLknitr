@@ -1,0 +1,30 @@
+---
+title: "Example"
+author: "RTLknitr"
+date: "`r Sys.Date()`"
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+header-includes:
+  - \usepackage{xepersian}
+  - \settextfont{Arial}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(RTLknitr)
+library(knitr)
+markdown_rtl()
+```
+
+## متن نمونه پویا
+
+این یک نمونه متن است برای 
+\lr{rmarkdown}
+فارسی.
+
+```{r}
+summary(iris)
+```
+
+

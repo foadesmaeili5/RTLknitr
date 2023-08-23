@@ -17,6 +17,7 @@ Depends:
 Imports:
   knitr,
   magrittr,
-  gt
+  gt,
+  bookdown
 Reference:
  - Xie, Y. (2014). Dynamic Documents with R and knitr. Chapman & Hall/CRC. ISBN: 978-1482203530.
