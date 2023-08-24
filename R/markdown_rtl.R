@@ -16,11 +16,9 @@
 #' @export
 #'
 #' @examples
-#' require(bookdown)
 #' # Enable RTL formatting for the current R Markdown document
 #' markdown_rtl()
-#' (f <- system.file("examples", "example.rnw", package = "RTLknitr"))
-#' knitr::knit(f)
+#'
 #' # After enabling RTL formatting, proceed to knit the R Markdown document as usual.
 #' # The output and messages will be formatted for RTL languages.
 #'

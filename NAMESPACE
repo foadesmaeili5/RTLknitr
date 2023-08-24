@@ -3,6 +3,7 @@
 export(Centering)
 export(hooks_rtl)
 export(markdown_rtl)
+export(markdown_rtl_header)
 export(remove_escape_latex)
 export(tab_header_lbl)
 import(bookdown)
