@@ -1,6 +1,6 @@
 Package: RTLknitr
 Type: Package
-Title: Right to Left Dynamic Documents Using Knitr
+Title: Right to Left Dynamic Documents Using 'knitr'
 Version: 1.0.0
 Authors@R: person("Foad", "Esmaeili", email = "foadesmaeili5@gmail.com", role = c("aut","cre","cph"), comment = c(ORCID = "0000-0002-9638-0807"))
 Maintainer: Foad Esmaeili <foadesmaeili5@gmail.com>
