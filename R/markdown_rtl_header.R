@@ -14,10 +14,14 @@ author: "RTLknitr"
 date: "`r Sys.Date()`"
 output:
   bookdown::pdf_document2:
-  latex_engine: xelatex
+    latex_engine: xelatex
+    toc: true
 header-includes:
-  - \\usepackage{xepersian}
-  - \\settextfont{Arial}
+  - \usepackage{hyperref}
+  - \usepackage{bidi}
+  - \usepackage{xepersian}
+  - \settextfont{Arial}
+  - \setlatintextfont{Arial}
 ---'
   cat(txt)
 }
