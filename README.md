@@ -1,5 +1,4 @@
 # RTLknitr <img src="man/figures/logo.png" align="right" /> 
-======================
 
 [![R-CMD-check](https://github.com/FoadEsmaeili5/RTLknitr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/FoadEsmaeili5/RTLknitr/actions/workflows/R-CMD-check.yaml)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/RTLknitr)](https://cran.r-project.org/package=RTLknitr)
