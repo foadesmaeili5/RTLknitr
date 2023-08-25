@@ -17,11 +17,11 @@ output:
     latex_engine: xelatex
     toc: true
 header-includes:
-  - \usepackage{hyperref}
-  - \usepackage{bidi}
-  - \usepackage{xepersian}
-  - \settextfont{Arial}
-  - \setlatintextfont{Arial}
+  - \\usepackage{hyperref}
+  - \\usepackage{bidi}
+  - \\usepackage{xepersian}
+  - \\settextfont{Arial}
+  - \\setlatintextfont{Arial}
 ---'
   cat(txt)
 }
