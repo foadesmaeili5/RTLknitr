@@ -45,7 +45,7 @@ markdown_rtl <- function(...) {
       paste0(c("\\latin", .o_w(x, options), "\\persian"))
     },
     message = function(x, options) {
-      paste0(c("\\\\latin", .o_m(x, options), "\\persian"))
+      paste0(c("\\latin", .o_m(x, options), "\\persian"))
     },
     error = function(x, options) {
       paste0(c("\\latin", .o_e(x, options), "\\persian"))
