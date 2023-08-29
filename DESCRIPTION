@@ -1,7 +1,7 @@
 Package: RTLknitr
 Type: Package
 Title: Right to Left Dynamic Documents Using 'knitr'
-Version: 1.0.1
+Version: 1.0.0
 Authors@R: person("Foad", "Esmaeili", email = "foadesmaeili5@gmail.com", role = c("aut","cre","cph"), comment = c(ORCID = "0000-0002-9638-0807"))
 Maintainer: Foad Esmaeili <foadesmaeili5@gmail.com>
 Description: Provide seamless support for right-to-left (RTL) languages, such as Persian and Arabic, in R Markdown documents and 'LaTeX' output. It includes functions and hooks that enable easy integration of RTL language content, allowing users to create documents that adhere to RTL writing conventions. For in-depth insights into dynamic documents and the 'knitr' package, consider referring to Xie, Y (2014) <ISBN: 978-1-482-20353-0>.

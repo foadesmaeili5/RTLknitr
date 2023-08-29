@@ -28,7 +28,7 @@ remotes::install_github("FoadEsmaeili5/RTLknitr")
 ```
 
 ## To cite package `RTLknitr` in publications use:
-  Esmaeili, F. (2023). _RTLknitr: Right to Left Dynamic Documents Using knitr _. R package version 1.0.1,
+  Esmaeili, F. (2023). _RTLknitr: Right to Left Dynamic Documents Using knitr _. R package version 1.0.0,
   <https://cran.r-project.org/web/packages/RTLknitr>.
 
 A BibTeX entry for LaTeX users is
@@ -37,7 +37,7 @@ A BibTeX entry for LaTeX users is
     title = {RTLknitr: Right to Left Dynamic Documents Using knitr},
     author = {Foad Esmaeili},
     year = {2023},
-    note = {R package version 1.0.1},
+    note = {R package version 1.0.0},
     url = {https://cran.r-project.org/web/packages/RTLknitr}
   }
   
