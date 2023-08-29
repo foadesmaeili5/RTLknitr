@@ -17,3 +17,4 @@ Imports:
   magrittr,
   gt,
   bookdown
+BugReports: https://github.com/FoadEsmaeili5/RTLknitr/issues
